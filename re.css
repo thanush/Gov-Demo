@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/css?family=Philosopher);
+.header{
+	width: 100%;
+/* 	background: #ccc; */
+	height: 130px;
+}
+.header img{
+	height: inherit;
+	margin-left: 50px;
+	float: left;
+}
+.header a{
+	text-decoration: none;
+	font-family: 'Philosopher' sans-serif;
+}
+.header a span{
+	font-family: ;
+	text-decoration: none;
+	color: #000;
+	font-size: 3.8em;
+	position: relative;
+	top:30px;
+	margin-left:20px;
+}
+.cf:before,
+.cf:after{
+	content: "";
+	display: table;
+}
+.cf:after{
+	clear: both;
+}
+.wrap{
+	/* background: #ccc; */
+	padding: 10px;
+	width: 90%;
+	margin: 0 auto;
+}
+.con{
+	width: 100%;
+}
+.f_sec{
+	background: pink;
+	padding: 10px;
+	width: 15%;
+	float: left;
+}
+.m_sec{
+	/* background: cornflowerblue; */
+	float: left;
+	width: 60%;
+	padding: 10px;
+	margin-left: 20px;
+}
+.table_head{
+	width: 100%;
+	font-size: 1.2em;
+	font-family: 'Philosopher' sans-serif;
+}
+.table_head thead{
+
+}
+.table_head thead tr{
+
+}
+.table_head thead tr th{
+	padding: 10px;
+	box-shadow:0 2px 10px rgba(0,0,0,.2)
+}
+.text-left{
+	text-align: center;
+	padding: 2%;
+	background: #fff;
+	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+tbody tr{
+	
+}
+table { 
+    border-collapse: separate;
+    border-spacing: 2px;
+    /* border: 1px solid #000; */
+}
+.s_sec{
+	background: coral;
+	padding: 10px;
+	width: 15%;
+	float: left;
+	margin-left: 20px;
+}
+.s_three{
+	clear: both;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.ph label{
+	font-family: 'Philosopher' sans-serif;
+	font-size: 1.2em;
+}
+.spi{
+	text-align: center;
+}
+.fa-chevron-circle-left{
+	text-align: center;
+	cursor: pointer;
+}
+.focusedInput:focus{
+	border: 1px solid #56b4ef;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.05),0 0 8px rgba(82,168,236,0.6);
+	outline: 0;
+	color: #292f33;
+	border-color: #56b4ef;
+}
+.s_for{
+	clear: both;
+	text-align: center;
+}
+.se_in{
+	width: 90%;
+	padding: 10px;
+}
+.phone{
+	width: 25%;
+}
+.form{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+ .btn{
+	position: relative;
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #eee;
+	background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+	background-image: linear-gradient(#fcfcfc, #eee);
+	background-repeat: repeat-x;
+	border: 1px solid #d5d5d5;
+	border-radius: 3px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-appearance: none;
+}
+.btn:hover{
+	text-decoration: none;
+	background-color: #ddd;
+	background-image: -webkit-linear-gradient(#eee, #ddd);
+	background-image: linear-gradient(#eee, #ddd);
+	background-repeat: repeat-x;
+	border-color: #ccc;
+	}

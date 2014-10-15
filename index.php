@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sathable</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	</head>
+<body>
+<div class="total">
+	<div class="header">
+		<img src="Octocat/Octocat.png">
+		<a href="#"><span>Sathable</span></a>
+	</div>
+		<form method="post" action="" class="form">
+	       <input type="search" class="se_in focusedInput" placeholder="Search">
+	       <input type="submit" value="Search" class="btn">
+	     </form><br>
+	<div class="main cf side">
+	<div class="mainsub">
+		<div class="first">
+		<a href="#" class="thumb prop" id="he">
+			<div class="one">
+				<i class="fa fa-info fa-4x" id="ti"></i><br>
+				<i class="fa fa-info fa-3x" id="te"></i>
+				<div class="ab pro">
+					<strong class="sa">About Us</strong>
+				</div>	
+			</div>
+		</a>
+		<a href="#" class="">
+			<div class="two sp" id="he">
+				<i class="fa fa-circle-o-notch fa-spin fa-5x" id="th"></i>
+				<i class="fa fa-circle-o-notch fa-spin fa-3x" id="tg"></i>
+
+			</div>
+		</a>
+		<a href="#" class="thumbt prot" id="he">
+				<div class="three">
+					<i class="fa fa-angle-left fa-5x"></i>
+					<i class="fa fa-angle-left fa-4x"></i>
+					<i class="fa fa-angle-left fa-3x"></i>
+					<i class="fa fa-angle-left fa-2x"></i>
+				</div>
+				<div class="at proi">
+					<strong>Previous one</strong><br>
+					<strong>Previous one</strong><br>
+					<strong>Previous one</strong><br>
+					<strong>Previous one</strong><br>
+					<strong>Previous one</strong><br>
+					<strong>Previous one</strong><br>
+				</div>
+		</a>
+	</div>
+		<a href="#" class="thumbo">
+			<div class="four">
+					<i class="fa fa-graduation-cap fa-5x"></i>
+				<div class="ao">
+					<strong>latest one</strong><br>
+					<strong>latest one</strong><br>
+					<strong>latest one</strong><br>
+					<strong>latest one</strong><br>
+					<strong>latest one</strong><br>
+					<strong>latest one</strong><br>
+				</div>
+			</div>
+		</a>
+	<div class="second">
+		<a href="#" class="thumbf prot" id="he">
+			<div class="five">
+				<i class="fa fa-calendar fa-4x" id="tf"></i>
+				<i class="fa fa-calendar fa-3x" id="tt"></i>
+				<div class="af proi">
+					<strong>Up coming one</strong><br>
+					<strong>Up coming one</strong><br>
+					<strong>Up coming one</strong><br>
+					<strong>Up coming one</strong><br>
+					<strong>Up coming one</strong><br>
+					<strong>Up coming one</strong><br>
+				</div>
+			</div>
+		</a>
+		<a href="#">
+			<div class="six sp" id="he">
+				<i class="fa fa-circle-o-notch fa-spin fa-5x" id="th"></i>
+				<i class="fa fa-circle-o-notch fa-spin fa-3x" id="tg"></i>
+			</div>
+		</a>
+		<a href="#" class="thumbs prop" id="he">
+			<div class="sev">
+				<i class="fa fa-comments-o fa-4x" id="tc"></i><br>
+				<i class="fa fa-comments-o fa-3x" id="tu"></i>
+				<div class="as pro">
+					<strong class="ca">Contact Us</strong>
+				</div>
+			</div>
+		</a>
+	</div>
+	</div>	
+	</div>	
+</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<div class="footer"><span>Copyright@2014</span></div>
+</body>
+</html>

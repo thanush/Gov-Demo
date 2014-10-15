@@ -1,0 +1,403 @@
+@import url(http://fonts.googleapis.com/css?family=Philosopher);
+body{
+	background: #fafafa;
+}
+.cf:before,
+.cf:after{
+	content: "";
+	display: table;
+}
+.cf:after{
+	clear: both;
+}
+.header{
+	width: 100%;
+/* 	background: #ccc; */
+	height: 130px;
+}
+.header img{
+	height: inherit;
+	margin-left: 50px;
+	float: left;
+}
+.header a{
+	text-decoration: none;
+	font-family: 'Philosopher' sans-serif;
+}
+.header a span{
+	text-decoration: none;
+	color: #000;
+	font-size: 3.8em;
+	position: relative;
+	top:30px;
+	margin-left:20px;
+}
+.main{
+	margin:0 auto;
+	width: 90%;
+	margin-top: 30px;
+}
+.prop{
+	width: 40%;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	text-align: center;
+	color: #fff;
+}
+.pro{
+	font-size: 1.2em;
+	height: 135px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	opacity: 0.8;
+	display: none; 
+	border-radius: 10px;
+	background: #000;
+}
+.prot{
+	width: 86%;
+	height:135px;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: relative; 
+}
+.proi{
+	font-size: 1.2em;
+	height: 135px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	opacity: 0.8;
+	display: none; 
+	border-radius: 10px;
+	font-family: 'Philosopher' sans-serif; 
+}
+.sp{
+	margin-left: 25px;
+	width: 40%;
+	height:135px;
+	float: left; 
+	border-radius: 10px;
+	margin-bottom: 25px;
+	text-align:center;
+	color: #fff; 
+}
+.one{	
+	position: relative;
+	padding-bottom: 45px;
+
+}
+.fa-circle-o-notch{
+	text-align: center;
+}
+.thumb{
+	background: #dc6800;
+	
+}
+.ab{
+	
+	}
+.sa{
+	margin-top: 60px;
+	display: block;
+	font-size: 1.5em;
+	font-family: 'Philosopher' sans-serif;
+}
+.fa-info{
+	margin-top: 25px;
+}
+.two{
+	background: #619919;
+	
+}
+.fa-spin{
+	margin-top: 25px;
+}
+.three{
+	
+}
+.thumbt{
+	background: #873799;
+	
+}
+.at{
+	background: #000;
+	
+}
+.fa-angle-left{
+	margin-top: 25px;
+}
+.four{
+	
+}
+.thumbo{
+	background: #008bbb;
+	width: 30%;
+	height:300px;
+	float: left;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	text-align: center;
+}
+.thumbf{
+	background: #fba714;
+}
+.ao{
+	font-size: 1.2em;
+	background: #000;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	opacity: 0.8;
+	display: none;  
+	border-radius: 10px;
+	font-family: 'Philosopher' sans-serif;
+}
+.fa-graduation-cap{
+	margin-top: 100px;
+}
+.af{
+	background: #000;
+}
+.fa-calendar{
+	margin-top: 25px;
+}
+.five{
+	
+}
+.six{
+	background: #ca0c5c;
+	margin-left: 0px;
+}
+
+.sev{	
+	position: relative;
+	padding-bottom: 60px;
+
+}
+.thumbs{
+	background: #0dd2d9;
+	margin-left: 20px;
+}
+.as{
+	background: #000;
+	}
+.fa-comments-o{
+	margin-top: 10px;
+}
+.ca{
+	margin-top: 60px;
+	display: block;
+	font-size: 1.5em;
+	font-family: 'Philosopher' sans-serif;
+}
+.first {
+	width: 30%;
+	float: left;
+	margin-left:50px;
+}
+
+.second{
+	width: 30%;
+	float: left;
+	margin-left:50px;
+
+}
+.footer{
+	background: #ccc;
+	clear: both;
+	padding-bottom: 30px;
+	width: 90%;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+.footer span{
+	margin-top: 10px;
+}
+
+.form{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.focusedInput:focus{
+	border: 1px solid #56b4ef;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.05),0 0 8px rgba(82,168,236,0.6);
+	outline: 0;
+	color: #292f33;
+	border-color: #56b4ef;
+}
+.se_in{
+	width: 90%;
+	padding: 10px;
+}
+ .btn{
+position: relative;
+display: inline-block;
+padding: 10px 30px;
+font-size: 13px;
+font-weight: bold;
+color: #333;
+text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+background-color: #eee;
+background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+background-image: linear-gradient(#fcfcfc, #eee);
+background-repeat: repeat-x;
+border: 1px solid #d5d5d5;
+border-radius: 3px;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-appearance: none;
+}
+.btn:hover{
+text-decoration: none;
+background-color: #ddd;
+background-image: -webkit-linear-gradient(#eee, #ddd);
+background-image: linear-gradient(#eee, #ddd);
+background-repeat: repeat-x;
+border-color: #ccc;
+}
+#tg{
+	display: none;
+}
+#te{
+	display: none;
+}
+#tu{
+	display: none;
+}
+#tt{
+	display: none;
+}
+@media (min-width: 800px) and (max-width: 1199px){
+	.header img {
+		margin-left: 100px;
+	}
+	.header a span {
+		margin-left: 50px;
+	}
+	.form{
+		width: 90%;
+	}
+	.first{
+		width: 20%;
+	}
+	.four{
+		width: 20%;
+	}
+	.thumbo{
+		margin-left: 30px;
+		text-align: center;
+		height: 270px;
+	}
+	.ao{
+		height: 270px;
+		font-size: 1em;
+	}
+	.fa-graduation-cap{
+		margin-left: 60px;
+	}
+	.second{
+		width: 20%;
+	}
+	.prop{
+		width: 40%;
+	}
+	.one{
+		padding-bottom: 20px;
+	}
+	.pro{
+		font-size: 0.8em;
+		height: 110px;
+	}
+	.prot{
+		width: 86%;
+		height:110px;
+	}
+	.proi{
+		font-size: 1em;
+		height: 110px;
+	}
+	.three{
+		margin-top: -10px;
+	}
+	.sev{
+		padding-bottom: 35px;
+	}
+	.sp{
+		width: 40%;
+		height:110px;
+	}
+	#tg{
+		display: block;
+	}
+	#th{
+		display: none;
+	}
+	#ti{
+		display: none;
+	}
+	#te{
+		display: block;
+	}
+	#tu{
+		display: block;
+	}
+	#tc{
+		display: none;
+	}
+	#tt{
+		display: block;
+	}
+	#tf{
+		display: none;
+	}
+} 
+
+@media (min-width: 320px) and (max-width: 799px){
+	.first{
+		width: 100%;
+	}
+	.thumbo{
+		width: 85%;
+		margin-left: 50px;
+		height: 200px;
+		margin-bottom: 20px;
+	}
+	.second{
+		width: 100%;
+	}
+	.fa-graduation-cap {
+		margin-top: 60px;
+	}
+	.ao{
+		height: 200px;
+	}
+	.form{
+		width: 90%;
+	}
+	.header{
+		height: 90px;
+	}
+	.header a span {
+		font-size: 2em;
+	}
+	
+} 
