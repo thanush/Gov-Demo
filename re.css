@@ -161,3 +161,65 @@ table {
 	background-repeat: repeat-x;
 	border-color: #ccc;
 	}
+#bc{
+	display: none;
+}
+@media (min-width: 800px) and (max-width: 1199px){
+	.header img {
+		margin-left: 100px;
+	}
+	.header a span {
+		margin-left: 50px;
+	}
+	.f_sec{
+		float: none;
+		width: 100%;
+	}
+	.s_sec{
+		float: none;
+		width: 100%;
+		clear: both;
+	}
+	.m_sec{
+		margin-left: 120px;
+	}
+	#bc{
+		display: block;
+	}
+	#bk{
+		display: none;
+	}
+}
+@media (min-width: 320px) and (max-width: 799px){
+	.header{
+		height: 90px;
+	}
+	.header a span {
+		font-size: 2em;
+	}
+	.f_sec{
+		float: none;
+		width: 100%;
+	}
+	.s_sec{
+		float: none;
+		width: 100%;
+		clear: both;
+	}
+	.table_head thead tr th {
+		padding: 0px;
+		font-size: 0.8em;
+	}
+	.text-left {
+		font-size: 0.8em;
+	}
+	.m_sec{
+		margin-left: 0px;
+	}
+	#bc{
+		display: block;
+	}
+	#bk{
+		display: none;
+	}
+}
