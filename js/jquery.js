@@ -41,4 +41,6 @@ $(document).ready(function(){
 			loader	='<i class="fa fa-circle-o-notch fa-5x"></i>';
 		$('.total').html(loader).load(ind);
 	})
+	$('.dr').draggable();
+	$('.text-left').draggable();
 });
